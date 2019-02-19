@@ -6,6 +6,7 @@ import * as _ from 'lodash';
 export interface BaseGame extends SharedGame {
   displayName: string;
   description?: string;
+  webhookUrl?: string;
   dlc: string[];
   slots: number;
   humans: number;
